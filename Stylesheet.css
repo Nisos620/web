@@ -33,7 +33,6 @@ aside{
 	float: right;
 }
 
-
 footer{
 	line-height: 30px;
 	text-align: center;
@@ -84,7 +83,7 @@ iframe{
 }
 
 #topList {
-	background: #0AA9D5;
+	//background: #0AA9D5;
 	height: 50px;
 	border: 1px solid black;
 }
