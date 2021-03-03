@@ -12,7 +12,7 @@ header{
 	width: 100%;
 	line-height: 40px;
 	text-align: center;
-	background: #DC143C;
+	background: #C20000;
 	color: white;
 	border: 1px solid black;
 }
@@ -25,46 +25,6 @@ header a{
 a{
 	color: black;
 	text-decoration: none;
-}
-
-.divider{
-	clear: both;
-}
-
-#container{
-	width: 70%;
-	border: 1px solid black;
-	margin: auto;
-}
-
-#articles{
-	width: 65%;
-	min-height: 400px;
-	float: left;
-}
-
-#articles p{
-	width: 90%;
-	text-align: justify;
-}
-
-#tableSection{
-	width: 100%;
-	min-height: 400px;
-	float: left;
-}
-
-#topList {
-	background: #FFEBCD;
-	height: 50px;
-	border: 1px solid black;
-}
-
-#topList ul li{
-	float: left;
-	color: black;
-	line-height: 20px;
-	margin: 10px;
 }
 
 aside{
@@ -92,4 +52,109 @@ iframe{
 	height: 100px;
 	border: 0px;
 	overflow: hidden;
+}
+
+.divider{
+	clear: both;
+}
+
+#container{
+	width: 70%;
+	border: 1px solid black;
+	margin: auto;
+}
+
+#articles{
+	width: 65%;
+	min-height: 400px;
+	float: left;
+}
+
+#articles p{
+	width: 90%;
+	text-align: justify;
+}
+
+#tableSection{
+	width: 60%;
+	min-height: 400px;
+	float: left;
+	margin-left: 20%;
+}
+
+#topList {
+	background: #0AA9D5;
+	height: 50px;
+	border: 1px solid black;
+}
+
+#topList ul li{
+	float: left;
+	color: black;
+	line-height: 20px;
+	margin: 10px;
+}
+
+#first{
+	float: left;
+	width: 33%;
+}
+
+#first p{
+	word-wrap: break-word;
+	width: 100%;
+	text-align: justify;
+}
+
+#second{
+	float: center;
+	margin-left: 40%;
+	margin-right: 33%;
+	position: relative;
+	width: 33%;
+}
+
+#second p{
+	word-wrap: break-word;
+	width: 100%;
+	text-align: justify;
+}
+
+#third{
+	float: left;
+	width: 33%;
+}
+
+#third p{
+	word-wrap: break-word;
+	width: 100%;
+	text-align: justify;
+}
+
+input[type=text], select, textarea {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container{
+	margin-left: 30%
+}
+
+textarea{
+	height: 200px;
 }
