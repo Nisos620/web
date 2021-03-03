@@ -5,16 +5,18 @@
 
 body{
 	background-color: #F0FFFF;
+	margin-top: 5px;
 }
 
 header{
 	height: 80px;
 	width: 100%;
-	line-height: 40px;
+	line-height: 80px;
 	text-align: center;
 	background: #C20000;
 	color: white;
 	border: 1px solid black;
+
 }
 
 header a{
@@ -86,6 +88,7 @@ iframe{
 	background: #0AA9D5;
 	height: 50px;
 	border: 1px solid black;
+	padding-left: 2%;
 }
 
 #topList ul li{
