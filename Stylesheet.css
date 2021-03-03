@@ -77,6 +77,10 @@ iframe{
 	text-align: justify;
 }
 
+#projectNav{
+	padding-left: 2%;
+}
+
 #tableSection{
 	width: 60%;
 	min-height: 400px;
