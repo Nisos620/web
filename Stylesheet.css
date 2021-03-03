@@ -1,5 +1,5 @@
 *{
-	margin: 0px
+	margin: 0px;
 	padding: 0px;
 }
 
@@ -83,7 +83,7 @@ iframe{
 }
 
 #topList {
-	//background: #0AA9D5;
+	background: #0AA9D5;
 	height: 50px;
 	border: 1px solid black;
 }
